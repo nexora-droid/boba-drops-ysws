@@ -1,0 +1,41 @@
+body { 
+    background-color: #EC3750; 
+    color: white; font-family: 
+    system-ui; 
+    font-size: 2rem; 
+    text-align: center;
+}
+img {
+    width: 640px;
+    height: 360px;
+    border-radius: 40px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+    animation: float 1.5s infinite;
+}
+img:hover{
+    transform: scale(1.2);
+}
+@keyframes float {
+    0%{
+        transform: translateX(10px) translateY(5px);
+    }
+    50%{
+        transform: translateX(-10px) translateY(-5px);
+    }
+    100%{
+        transform: translateX(10px) translateY(5px);
+    }
+}
+#title{
+    text-decoration: underline wavy; 
+    text-underline-offset: 20px; 
+}
+#hackwat{
+    font-size: 2rem;
+    text-decoration: underline wavy; 
+}
+#hackis{
+    font-weight: bold;
+    font-size: 1rem;
+}
