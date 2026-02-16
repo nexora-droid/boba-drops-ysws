@@ -1,4 +1,3 @@
-/*temp comment*/
 body { 
     background-color: #EC3750; 
     color: white; font-family: 
@@ -12,20 +11,20 @@ img {
     border-radius: 40px;
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.4);
     transition: all 0.3s ease-in-out;
-    animation: float 1.5s infinite;
+    animation: floaty 2s infinite;
 }
 img:hover{
     transform: scale(1.2);
 }
-@keyframes float {
-    0%{
-        transform: translateX(10px) translateY(5px);
+@keyframes floaty {
+    0% {
+        transform: translateY(10px);
     }
-    50%{
-        transform: translateX(-10px) translateY(-5px);
+    50% {
+        transform: translateY(-10px);
     }
-    100%{
-        transform: translateX(10px) translateY(5px);
+    100% {
+        transform: translateY(10px);
     }
 }
 #title{
